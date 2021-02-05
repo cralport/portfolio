@@ -12,10 +12,12 @@ header {
     background-image: url("../images/coding\ image.jfif") ;
     color: rgb(248, 245, 241);
     font-size: x-large;
-    opacity: .8;
     position: -webkit-sticky;
     position: sticky;
     align-items: center;
+    top: 0;
+    background-attachment: fixed;
+    z-index: 9999;
 }
 
  header h1 {
@@ -59,7 +61,7 @@ body {
     background-color: rgb(190, 184, 184);
 }
 h2 {
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .container {
@@ -72,13 +74,30 @@ h2 {
 }
 .boxes {
     width: 80%;
-    height: 10em;
+    height: 12em;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 1em;
-    background-image: ;
+    border-radius: 15px;
+    border-color: red solid 3px;
+      
+}
 
+.inside-text {
+    background-image: url("../images/hero-bg\ \(1\).jpg");
+}
+
+.inside-text:hover {
+    color: blue;
+    justify-items: left;
+
+}
+
+img {
+    object-fit: cover;
+    height: 10em;
+    width: 100%;
 }
 
 .box2 {
@@ -86,6 +105,17 @@ h2 {
     width: 30%;
     height: 100%;
     border: red solid 3px;
+    border-radius: 10px;
 }
 
+.inside-text2 {
+    background-image: url(../images/01-html-css-git-homework-demo-1.png);
+    text-align: center;
+    color:antiquewhite; 
+}
 
+.About-me {
+    padding: 500x 20px 100px 20px;
+    display: flex;
+    jus
+}
