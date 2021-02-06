@@ -90,14 +90,7 @@ h2 {
 
 .inside-text:hover {
     color: blue;
-    justify-items: left;
 
-}
-
-img {
-    object-fit: cover;
-    height: 10em;
-    width: 100%;
 }
 
 .box2 {
@@ -111,11 +104,21 @@ img {
 .inside-text2 {
     background-image: url(../images/01-html-css-git-homework-demo-1.png);
     text-align: center;
-    color:antiquewhite; 
+    color:antiquewhite;
 }
 
-.About-me {
-    padding: 500x 20px 100px 20px;
+.about-me {
+    padding: 100px;
     display: flex;
-    jus
+    justify-content: space-between;
+}
+
+.about-me img {
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    display: flex;
+    justify-content: right;
 }
