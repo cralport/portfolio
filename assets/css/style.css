@@ -115,10 +115,14 @@ h2 {
 
 .about-me img {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    position: relative;
 }
 
-p {
+.about-me p {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
 }
