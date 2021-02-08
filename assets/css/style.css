@@ -98,7 +98,6 @@ h2 {
     width: 30%;
     height: 100%;
     border-radius: 10px;
-    opacity: ;
 }
 
 .inside-text2 {
@@ -111,7 +110,7 @@ h2 {
     padding: 100px;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .about-me img {
@@ -127,3 +126,79 @@ h2 {
     
 
 }
+
+@media screen and (max-width: 980px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 30px 15px;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    
+    }   
+    
+}
+
+@media screen and (max-width: 750px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 30px 15px;
+    }
+    .boxes {
+        width: 80%;
+        height: 12em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1em;
+        border-radius: 15px;
+     
+}
+
+@media screen and (max-width: 575px) {
+    header{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxes {
+        width: 80%;
+        height: 12em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1em;
+        border-radius: 15px;
+    }
+    .box2 {
+        background-color: grey;
+        width: 30%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    
+.inside-text2 {
+    background-image: url(../images/01-html-css-git-homework-demo-1.png);
+    text-align: center;
+    color:antiquewhite;
+}
+
+    
+    
