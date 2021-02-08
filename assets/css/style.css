@@ -80,12 +80,12 @@ h2 {
     align-items: center;
     margin-top: 1em;
     border-radius: 15px;
-    border-color: red solid 3px;
-      
+         
 }
 
 .inside-text {
     background-image: url("../images/hero-bg\ \(1\).jpg");
+    
 }
 
 .inside-text:hover {
@@ -97,8 +97,8 @@ h2 {
     background-color: grey;
     width: 30%;
     height: 100%;
-    border: red solid 3px;
     border-radius: 10px;
+    opacity: ;
 }
 
 .inside-text2 {
@@ -111,6 +111,7 @@ h2 {
     padding: 100px;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .about-me img {
@@ -119,10 +120,10 @@ h2 {
     position: relative;
 }
 
-.about-me p {
+.contact-info {
     display: flex;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
 
 }
