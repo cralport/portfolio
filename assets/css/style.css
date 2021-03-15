@@ -98,6 +98,22 @@ h2 {
     width: 30%;
     height: 100%;
     border-radius: 10px;
+    background-image: url(../images/horiseon\ \(2\).png);
+}
+
+.box3 {
+    background-color: grey;
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    background-image:url(../images/map-method.png);
+}
+
+.box4 {
+    background-color: grey;
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
 }
 
 .inside-text2 {
